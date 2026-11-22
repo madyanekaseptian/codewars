@@ -32,7 +32,7 @@ function convertIntegerToBinary(n: number): number[] {
 
   while (number > 0) {
     const quotinent = number % 2;
-    result = [quotinent, ...result]; // sengaja tidak memutasi langsung
+    result.unshift(quotinent)
     number = Math.floor(number / 2);
   }
 
