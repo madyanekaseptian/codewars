@@ -19,7 +19,7 @@ function countBits(n: number): number {
 
 ## Solusi 2
 
-Cara saya memecahkan kasus ini dengan cara agak panjang untuk melatih logika, [berdasarkan cara ini](./references.md).
+Cara saya memecahkan kasus ini dengan cara agak panjang untuk melatih logika, [berdasarkan cara ini](references.md).
 Pertama saya perlu mengonversi nilai integer menjadi biner (dalam bentuk objek array):
 
 ```ts
